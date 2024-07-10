@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SERV</title>
+    <link rel="stylesheet" href="css/Styles_inicio_seccion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <h1>SERV</h1>
+                    <img src="img_SERV_index/descarga-removebg-preview.png" alt="Logo del Instituto" width="40">   
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#" title="Cambiar Idioma"><i class="fas fa-globe"></i></a>
+                <a href="#" title="Notificaciones"><i class="fas fa-bell"></i></a>
+                <a href="#" title="Mensajes"><i class="fas fa-envelope"></i></a>
+                <a href="#" title="Perfil del usuario"><i class="fas fa-user-cog"></i></a>
+            </div>
+        </div>
+    </header>
+    
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="#"><i class="fas fa-book"></i> Notas</a>
+                <a href="#"><i class="fas fa-dollar-sign"></i> Cuotas</a>
+                <a href="#"><i class="fas fa-book-open"></i> Materias</a>
+                <a href="#"><i class="fas fa-clipboard-list"></i> Inscripción a materias</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+
+    <!-- Login -->
+    <section class="login-section">
+        <div class="login-container">
+            <h2>Iniciar Sesión</h2>
+            <form action="#" method="POST" class="login-form">
+                <input type="text" name="username" placeholder="Usuario" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+        </div>
+    </section>
+
+    <!-- Registro -->
+    <section class="register-section">
+        <div class="register-container">
+            <h2>Registrarse</h2>
+            <form action="#" method="POST" class="register-form">
+                <input type="text" name="username" placeholder="Usuario" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h2>Comunidad</h2>
+                <p>© 2024 Diseño y Desarrollo | Instituto Verbo Divino</p>
+                <p><i class="fas fa-globe"></i> <a href="https://isvd.com.ar/verbo-solidario/">https://isvd.com.ar/verbo-solidario/</a> | Todos los derechos reservados</p>
+            </div>
+            
+            <div class="contact-info">
+                <h2>Contactos</h2>
+                <p><i class="fas fa-phone-alt"></i> Tel: 4465962</p>
+                <p><i class="fas fa-envelope"></i> INSTITUTOVERBODIVINO@HOTMAIL.COM</p>
+                <p><i class="fas fa-map-marker-alt"></i> AVDA. TAMBOR de TACUARI VILLA CABELLO AVDA. TAMBOR de TACUARI Y PADRE KOLPING</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
